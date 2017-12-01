@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MyProject: task1 Namespace Reference</title>
+<title>task1: task1 Namespace Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,7 +21,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">MyProject
+   <div id="projectname">task1
    </div>
   </td>
  </tr>
@@ -58,10 +58,86 @@ $(function() {
 
 </div><!-- top -->
 <div class="header">
+  <div class="summary">
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">task1 Namespace Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:af56f33ab4a6cbea7681f04efce2199d9"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetask1.html#af56f33ab4a6cbea7681f04efce2199d9">sum</a> (x, n, i, iterator)</td></tr>
+<tr class="separator:af56f33ab4a6cbea7681f04efce2199d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="af56f33ab4a6cbea7681f04efce2199d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af56f33ab4a6cbea7681f04efce2199d9">&#9670;&nbsp;</a></span>sum()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def task1.sum </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>n</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>i</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>iterator</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">This function summ number in range from i to n
+  
+Args:
+    x:integer number
+    n:integer number
+    i:integer number
+    iteration:integer number
+
+Returns:
+    Summa of elements
+
+Raises:
+    ZeroDivisionError,ValueError.
+    
+Examples:
+    &gt;&gt;&gt;print(sum(5,5,0,0)
+    0,312
+    
+    &gt;&gt;&gt;print(sum(0,5,0,0)
+    Traceback (most recent call last):
+      ...
+    ZeroDivisionError: division by zero
+    
+    &gt;&gt;&gt;print(sum(a,5,0,0)
+    Traceback (most recent call last):
+      ...
+    ValueError: invalid literal for int() with base 10: 'a'
+</pre> 
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
