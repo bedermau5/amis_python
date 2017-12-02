@@ -4,7 +4,7 @@
 \begin{DoxyCompactItemize}
 \item 
 def \hyperlink{namespacetask1_af56f33ab4a6cbea7681f04efce2199d9}{sum} (x, n, i, iterator)
-\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em This function summ number in range from i to n. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \subsection{Function Documentation}
@@ -14,32 +14,27 @@ def \hyperlink{namespacetask1_af56f33ab4a6cbea7681f04efce2199d9}{sum} (x, n, i, 
 \subsubsection{\texorpdfstring{sum()}{sum()}}
 {\footnotesize\ttfamily def task1.\+sum (\begin{DoxyParamCaption}\item[{}]{x,  }\item[{}]{n,  }\item[{}]{i,  }\item[{}]{iterator }\end{DoxyParamCaption})}
 
-\begin{DoxyVerb}This function summ number in range from i to n
-  
-Args:
-    x:integer number
-    n:integer number
-    i:integer number
-    iteration:integer number
 
-Returns:
-    Summa of elements
 
-Raises:
-    ZeroDivisionError,ValueError.
-    
-Examples:
-    >>>print(sum(5,5,0,0)
-    0,312
-    
-    >>>print(sum(0,5,0,0)
-    Traceback (most recent call last):
-      ...
-    ZeroDivisionError: division by zero
-    
-    >>>print(sum(a,5,0,0)
-    Traceback (most recent call last):
-      ...
-    ValueError: invalid literal for int() with base 10: 'a'
-\end{DoxyVerb}
- 
+This function summ number in range from i to n. 
+
+x\+:integer number n\+:integer number i\+:integer number iteration\+:integer number
+
+\begin{DoxyReturn}{Returns}
+Summa of elements
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Zero\+Division\+Error} & \\
+\hline
+{\em Value\+Error.} & {\bfseries Examples} 
+\begin{DoxyCode}
+\end{DoxyCode}
+ $>$$>$$>$print(sum(5,5,0,0) 
+\begin{DoxyCode}
+0,312
+\end{DoxyCode}
+ $>$$>$$>$print(sum(0,5,0,0) Traceback (most recent call last)\+: ... Zero\+Division\+Error\+: division by zero\\
+\hline
+\end{DoxyExceptions}
+$>$$>$$>$print(sum(a,5,0,0) Traceback (most recent call last)\+: ... Value\+Error\+: invalid literal for int() with base 10\+: \textquotesingle{}a\textquotesingle{}  
